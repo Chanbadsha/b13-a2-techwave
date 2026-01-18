@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  font-size: 10px;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
