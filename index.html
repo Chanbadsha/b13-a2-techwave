@@ -22,6 +22,32 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="font-inter">
-    <h1>Welcome to Tech wave</h1>
+    <header
+      class="p-5 lg:px-44 lg:py-6 xl:px-60 xl:py-8 text-white bg-[rgba(26,11,46,1)]"
+    >
+      <nav class="flex justify-between items-center">
+        <h1 class="text-3xl lg:text-5xl font-extrabold">
+          Tech<span
+            class="bg-[linear-gradient(47deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))] text-transparent bg-clip-text rgba(0, 0, 0, 1) rgba(255, 255, 255, 1)"
+            >Wave</span
+          >
+        </h1>
+        <ul
+          class="hidden lg:flex gap-8 justify-center items-center font-medium"
+        >
+          <li><a href="#about">About</a></li>
+          <li><a href="#episode">Episode</a></li>
+          <li><a href="#host">Host</a></li>
+        </ul>
+        <button
+          class="hidden lg:flex justify-center items-center gap-1 text-base cursor-pointer font-semibold rounded-full px-4 py-3 bg-[linear-gradient(47deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))]"
+        >
+          Subscribe <span> <i class="fa-solid fa-arrow-right"></i></span>
+        </button>
+        <button class="text-2xl lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
   </body>
 </html>
